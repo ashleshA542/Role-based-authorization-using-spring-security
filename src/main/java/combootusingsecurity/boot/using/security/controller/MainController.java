@@ -10,25 +10,11 @@ public class MainController {
         return "login";
     }
 
-   /* @GetMapping("/index")*/
-
     @GetMapping("/index")
     public String index()
     {
 
         return "index";
-    }
-
-
-    @GetMapping("/logout")
-    public String logout() {
-        return "logout";
-    }
-
-
-    @GetMapping("/userdashboard")
-    public String userdashboard() {
-        return "userdashboard";
     }
 
 }
